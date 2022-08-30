@@ -2,3 +2,4 @@
 ^renv\.lock$
 ^VarEst2Phase\.Rproj$
 ^\.Rproj\.user$
+^README\.Rmd$
