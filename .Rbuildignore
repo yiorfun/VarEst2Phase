@@ -1,2 +1,4 @@
+^renv$
+^renv\.lock$
 ^VarEst2Phase\.Rproj$
 ^\.Rproj\.user$
