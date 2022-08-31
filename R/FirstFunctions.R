@@ -10,5 +10,5 @@
 #' library(VarEst2Phase)
 #' FirstFunctions(1, 2)
 FirstFunctions <- function(a, b) {
-  a+b
+  a + b
 }

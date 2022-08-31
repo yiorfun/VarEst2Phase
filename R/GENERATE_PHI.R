@@ -12,13 +12,17 @@
 #' @examples
 #' library(VarEst2Phase)
 #' GENERATE_PHI(x = c(1, 2, 3), knot = c(0.25, 0.75), degree = 2, boundary = c(0, 1), coeff_spline = c(0.1, 0.2, 0.3))
-GENERATE_PHI <- function(x, knot, degree, boundary, coeff_spline){
-	phi_matrix <- bSpline(x = x,
-					          knots = knot,
-					         degree = degree,
-			     Boundary.knots = boundary,
-				        intercept = TRUE)
-	phi_vector <- drop(phi_matrix %*% coeff_spline)
-	return(list(phi_vector = phi_vector,
-				      phi_matrix = phi_matrix))
+GENERATE_PHI <- function(x, knot, degree, boundary, coeff_spline) {
+  phi_matrix <- bSpline(
+    x = x,
+    knots = knot,
+    degree = degree,
+    Boundary.knots = boundary,
+    intercept = TRUE
+  )
+  phi_vector <- drop(phi_matrix %*% coeff_spline)
+  return(list(
+    phi_vector = phi_vector,
+    phi_matrix = phi_matrix
+  ))
 }
