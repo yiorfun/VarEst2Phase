@@ -2,3 +2,4 @@
 
 export(FirstFunctions)
 export(GENERATE_PHI)
+importFrom(splines2,bSpline)
