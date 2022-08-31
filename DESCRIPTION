@@ -1,20 +1,17 @@
 Package: VarEst2Phase
 Title: Variance Estimation Under Two-Phase Design For Survive Data
-Version: 0.0.1
+Version: 0.0.0.9002
 Authors@R: 
     person("Yifan", "Yang", , "yiorfun@umd.edu", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
     person("Takumi", "Saegusa", , "tsaegusa@umd.edu", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
 Imports: 
-    extraDistr,
-    MASS,
     splines2
 Suggests: 
     covr,
