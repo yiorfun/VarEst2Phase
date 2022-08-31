@@ -1,8 +1,10 @@
 Package: VarEst2Phase
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Variance Estimation Under Two-Phase Design For Survive Data
+Version: 0.0.1
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Yifan", "Yang", , "yiorfun@umd.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Takumi", "Saegusa", , "tsaegusa@umd.edu", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: What the package does (one paragraph).
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
