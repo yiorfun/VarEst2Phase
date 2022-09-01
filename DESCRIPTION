@@ -1,6 +1,6 @@
 Package: VarEst2Phase
 Title: Variance Estimation Under Two-Phase Design For Survive Data
-Version: 0.0.0.9003
+Version: 0.0.0.9004
 Authors@R: 
     person("Yifan", "Yang", , "yiorfun@umd.edu", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
@@ -12,7 +12,7 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
 Imports: 
-    splines2
+    splines2,
     extraDistr
 Suggests: 
     covr,
