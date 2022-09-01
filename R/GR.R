@@ -67,7 +67,7 @@
 #'
 #' @export
 #'
-#'@importFrom splines2 bSpline
+#' @importFrom splines2 bSpline
 GR <- function(gama.ini, active.set, d, qn, ZMat, UVec, VVec,
 	knot, degree, boundary, DELTA, OMEGA, GENERATE_GRADIENT_HESSIAN,
 	GENERATE_PHI){

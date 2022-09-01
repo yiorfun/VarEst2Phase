@@ -61,7 +61,8 @@
 #'
 #' @export
 #'
-#'@importFrom splines2 bSpline
+#' @importFrom splines2 bSpline
+#' @importFrom MASS ginv
 GENERATE_COX_GRADIENT_HESSIAN <- function(Gama, d, qn, ZMat,
 	UVec, VVec, knot, degree, boundary, DELTA, OMEGA, GENERATE_PHI){
 

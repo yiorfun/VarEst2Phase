@@ -73,6 +73,7 @@
 #'
 #' @importFrom splines2 bSpline
 #' @importFrom extraDistr rmvhyper
+#' @importFrom stats runif
 BOOTSTRAP_PROCEDURE <- function(brepsMax, phase1_size, phase2_size,
     member_phase2, DELTA, OMEGA, Gama_initial, d, qn, ZMat, UVec, VVec,
     knot, degree, boundary, GENERATE_GRADIENT_HESSIAN, GENERATE_PHI) {
