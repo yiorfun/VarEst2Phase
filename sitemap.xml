@@ -16,13 +16,16 @@
     <loc>/index.html</loc>
   </url>
   <url>
-    <loc>/reference/FirstFunctions.html</loc>
+    <loc>/reference/BOOTSTRAP_PROCEDURE.html</loc>
   </url>
   <url>
     <loc>/reference/GENERATE_COX_GRADIENT_HESSIAN.html</loc>
   </url>
   <url>
     <loc>/reference/GENERATE_PHI.html</loc>
+  </url>
+  <url>
+    <loc>/reference/GR.html</loc>
   </url>
   <url>
     <loc>/reference/index.html</loc>
