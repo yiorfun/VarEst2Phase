@@ -73,13 +73,16 @@
 #'
 #' @importFrom splines2 bSpline
 #' @importFrom extraDistr rmvhyper
-BOOTSTRAP_PROCEDURE <- function(brepsMax, phase1_size, phase2_size, member_phase2, DELTA, OMEGA, Gama_initial, d, qn, ZMat, UVec, VVec, knot, degree, boundary, GENERATE_GRADIENT_HESSIAN, GENERATE_PHI){
+BOOTSTRAP_PROCEDURE <- function(brepsMax, phase1_size, phase2_size,
+    member_phase2, DELTA, OMEGA, Gama_initial, d, qn, ZMat, UVec, VVec,
+    knot, degree, boundary, GENERATE_GRADIENT_HESSIAN, GENERATE_PHI) {
 
 	breps <- 1
 	ResMat_B <- matrix(0, nrow = brepsMax, ncol = d + qn)
 	multiple_K <- phase1_size %/% phase2_size
 	remainder_R <- phase1_size %% phase2_size
-	selection_S <- (1 - remainder_R / phase2_size) * (1 - remainder_R / (phase1_size - 1))
+	selection_S <- (1 - remainder_R / phase2_size) *
+	    (1 - remainder_R / (phase1_size - 1))
 
 	while(breps <= brepsMax){
 		OMEGA_B <- rep(0, times = nrow(DELTA))
