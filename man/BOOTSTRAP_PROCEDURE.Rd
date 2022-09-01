@@ -97,3 +97,6 @@ A \code{brepsMax} by \code{length(Gama)} matrix has the bootstrap result.
 Estimate the variances at phase two for the regression coefficients by
 using a bootstrap procedure
 }
+\references{
+\url{https://onlinelibrary.wiley.com/doi/10.1111/sjos.12152}
+}

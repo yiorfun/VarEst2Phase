@@ -69,11 +69,12 @@
 #'
 #' @export
 #'
-#'@importFrom splines2 bSpline
-#'@importFrom extraDistr rmvhyper
+#' @references \url{https://onlinelibrary.wiley.com/doi/10.1111/sjos.12152}
+#'
+#' @importFrom splines2 bSpline
+#' @importFrom extraDistr rmvhyper
 BOOTSTRAP_PROCEDURE <- function(brepsMax, phase1_size, phase2_size, member_phase2, DELTA, OMEGA, Gama_initial, d, qn, ZMat, UVec, VVec, knot, degree, boundary, GENERATE_GRADIENT_HESSIAN, GENERATE_PHI){
 
-	### the bootstrap procedure as Saegusa 2015
 	breps <- 1
 	ResMat_B <- matrix(0, nrow = brepsMax, ncol = d + qn)
 	multiple_K <- phase1_size %/% phase2_size
