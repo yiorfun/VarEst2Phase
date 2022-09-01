@@ -33,11 +33,11 @@ to the B-spline basis matrix included an intercept. The length of
 (due to the presence of an intercept).}
 }
 \value{
-A matrix of dimension \code{length(x)} by \code{df = degree + length(knot)}
-(plus one if the intercept is included) and a vector that the product
-of this matrix and the vector \code{coeff_spline}. Attributes that
-correspond to the arguments specified are returned for usage of other
-functions in this package.
+A list includes: a matrix of dimension \code{length(x)} by
+\code{df = degree + length(knot)} (plus one if the intercept is included)
+and a vector that the product of this matrix and the vector
+\code{coeff_spline}. Attributes that correspond to the arguments specified
+are returned for usage of other functions in this package.
 }
 \description{
 Calculate the spline basis matrix and the values of a linear combination

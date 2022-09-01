@@ -25,11 +25,11 @@
 #'     `coeff_spline` equals `df` or `degree + length(knot) + 1`
 #'     (due to the presence of an intercept).
 #'
-#' @return A matrix of dimension `length(x)` by `df = degree + length(knot)`
-#'     (plus one if the intercept is included) and a vector that the product
-#'     of this matrix and the vector `coeff_spline`. Attributes that
-#'     correspond to the arguments specified are returned for usage of other
-#'     functions in this package.
+#' @return A list includes: a matrix of dimension `length(x)` by
+#'     `df = degree + length(knot)` (plus one if the intercept is included)
+#'     and a vector that the product of this matrix and the vector
+#'     `coeff_spline`. Attributes that correspond to the arguments specified
+#'     are returned for usage of other functions in this package.
 #'
 #' @export
 #'
